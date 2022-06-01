@@ -283,6 +283,15 @@ hr {
 	margin-top: 23px;
 	margin-left: 200px;
 }
+.manual_img {
+	text-align: center;
+	margin-top: 5px;
+}
+.paginas {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+}
 .texto1 {
 	font-size: 2em;
 	color: blue;
