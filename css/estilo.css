@@ -246,6 +246,10 @@ hr {
 	min-height: 350px;
 	position: relative;	
 }
+.slide2 {
+	min-height: 150px;
+	position: relative;	
+}
 .slide_imagem {
 	position: absolute;
 	opacity: 0;
@@ -281,7 +285,7 @@ hr {
 .logo img{
 	float: left;
 	margin-top: 23px;
-	margin-left: 200px;
+	margin-left: 20px;
 }
 .manual_img {
 	text-align: center;
@@ -373,7 +377,7 @@ nav#menuSm-1 ul li a {
         font-size: 1em;
     }
 /*RESPONSIVO INÍCIO*/
-@media only screen and (max-width: 2500px) {
+/*@media only screen and (max-width: 2500px) {
 .some1 {
 display: none;
 }
@@ -392,7 +396,7 @@ display: none;
 .aparece{
   display: block;
 }
-}
+}*/
 /*RESPONSIVO FIM*/
 
 /*MENU RETRATIL INÍCIO*/
