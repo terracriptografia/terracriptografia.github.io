@@ -3569,8 +3569,8 @@
 }
 
 .delay-1s {
-  -webkit-animation-delay: .1s;
-  animation-delay: .1s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .animated.delay-2s {
@@ -3649,8 +3649,8 @@
   animation-duration: 3s;
 }
 .animated.superSlower {
-  -webkit-animation-duration: 8s;
-  animation-duration: 8s;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
 }
 
 .animated.slower-18 {
