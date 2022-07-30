@@ -165,9 +165,6 @@ nav ul li a#cabecalho {
 	margin-top: 10px;
 	font-size: 2em;
 	color: white;
-	border: solid 1px blue;
-	background-color: blue;
-
 }
 .uso {
 	text-align: center;
@@ -337,7 +334,7 @@ nav ul li a#cabecalho {
 	height: 100%;
 	margin-bottom: 10px;
 	text-decoration: none;
-	font-size: .7em;	
+	font-size: .6em;	
 	color: blue;
 	background-color: white
 }
