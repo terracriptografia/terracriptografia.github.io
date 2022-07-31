@@ -324,12 +324,12 @@ nav ul li a#cabecalho {
 	text-align: center;
 	margin-top: 15px
 }
-@media(min-width: 600px){
+@media(min-width: 700px){
 .mensagem_dowload {
 	display: none;
 }
 }
-@media(max-width: 600px){
+@media(max-width: 700px){
 .some_botao {
 	display: none;
 }
