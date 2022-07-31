@@ -318,6 +318,22 @@ nav ul li a#cabecalho {
 	position: relative;	
 }
 }
+.confif_mens_download {
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+	margin-top: 15px
+}
+@media(min-width: 600px){
+.mensagem_dowload {
+	display: none;
+}
+}
+@media(max-width: 600px){
+.some_botao {
+	display: none;
+}
+}
 @media(max-width: 780px){
 .btn_contato a{	
 	text-decoration: none;
