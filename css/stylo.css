@@ -12,9 +12,9 @@ body {
 	background-color: blue;
 }
 footer {
-	background-color: black;
 	width: 100%;
-	height: 300px
+	height: 250px;
+	background-color: black;
 }
 img {
 	width: 100%;
@@ -36,11 +36,6 @@ img {
 	height: 120px;
 	width: 120px; 
 	margin: 0 auto
-}
-.texto1 {
-	color: blue;
-	font-size: 1.4em;
-	text-align: center;
 }
 
 /*ROTATIVO INÍCIO*/
@@ -133,7 +128,18 @@ nav ul li a#cabecalho {
 	text-align: center;
 	font-size: 1.8em;
 	color: orange;
-	margin-top: 1px;
+	margin-top: 25px;
+}
+.texto_teste_gratis {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 30px
+}
+.texto1 {
+	color: blue;
+	font-size: 1.4em;
+	text-align: center;
 }
 .texto2 {
 	font-size: 3em;
@@ -150,7 +156,7 @@ nav ul li a#cabecalho {
 
 }
 .dimi_imagem_2 {
-	width: 100%
+	width: 80%
 }
 .texto3 {
 	text-align: center;
@@ -160,6 +166,13 @@ nav ul li a#cabecalho {
 	color: white;
 	text-align: center;
 	margin-top: 20px;
+}
+.texto5 {
+	width: 75%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	margin-top: 30px
 }
 .uso a{
 	margin-top: 10px;
@@ -174,6 +187,21 @@ nav ul li a#cabecalho {
 	background-color: blue;		
 	color: white;
 	font-size: 1.4em;
+}
+.btn_download a{
+	margin: auto;
+    display: block;	
+	text-align: center;	
+	background-color: white;		
+	color: blue;
+	text-decoration: none;
+	width: 20%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 2em 
+}
+.btn_download {
+	margin-top: 20px;
 }
 /*BOTÕES INÍCIO*/
 .btn_contato a{	
@@ -191,6 +219,20 @@ nav ul li a#cabecalho {
 	background-color: white;
 	padding-right: 10px;
 	padding-left: 10px;
+}
+.ajuste1 {
+	margin-bottom: 13px;
+}
+.btn_padrao2 {	
+	border: none;
+	text-decoration: none;
+	font-size: 1em;	
+	color: blue;
+	background-color: white;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .btn_contato a:hover {
 	background-color: white;
@@ -267,7 +309,61 @@ nav ul li a#cabecalho {
 }
 }
 /*MANUAL FIM*/
+/*BOTÃO RECOLHE TEXTO INÍCIO*/
+#mais1 {
+	display: none;
+}
+#mais2 {
+	display: none;
+}
+#mais3 {
+	display: none;
+}
+#mais4 {
+	display: none;
+}
+#mais5 {
+	display: none;
+}
+/*BOTÃO RECOLHE TEXTO INÍCIO*/
 
+/*FOOTER INÍCIO*/
+.config_footer {
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 25px
+}
+.config_footer_1 {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 55px
+}
+.config_footer_2 {
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 123px;
+}
+.config_footer_3 img{
+    margin: auto;
+    display: block;	
+	width: 150px;
+	height: 50px;
+	margin-top: 40px;
+	text-align: center	
+}
+.config_footer_4 img{
+    margin: auto;
+    display: block;	
+	width: 100px;
+	height: 100px;
+	margin-top: 25px;
+	text-align: center	
+}
+
+/*FOOTER FIM*/
 @media screen and (min-width: 320px){
 	.grid-p-1 {width: 8.33333%}
     .grid-p-2 {width: 16.66666%}
@@ -318,6 +414,21 @@ nav ul li a#cabecalho {
 	position: relative;	
 }
 }
+@media(max-width: 958px){
+footer {
+	width: 100%;
+	height: 560px;
+	background-color: black;
+}
+}
+@media(max-width: 958px){
+.config_footer_2 {
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 50px;
+}
+}
 .confif_mens_download {
 	font-size: 1.5em;
 	color: white;
@@ -344,7 +455,7 @@ nav ul li a#cabecalho {
 	padding-right: 5px
 }
 }
-@media(max-width: 780px){
+@media(min-width: 230px){
 .btn_padrao {	
 	width: 80%;
 	height: 100%;
@@ -356,12 +467,24 @@ nav ul li a#cabecalho {
 }
 }
 @media(min-width: 680px){
+.btn_padrao {	
+	width: 25%;
+	font-size: .5em
+}
+}
+@media(min-width: 680px){
 	.hamburger1 {
 	width: 40px;	
 	height: 40px;
 }
 }
-@media(min-width: 880px){
+@media only screen and (min-width: 680px) {
+	.borda2 {
+	width: 80%;
+	border: 1px solid white;
+}
+}
+@media(min-width: 780px){
 	.dimi_imagem_2 {
 	width: 30%
 }
