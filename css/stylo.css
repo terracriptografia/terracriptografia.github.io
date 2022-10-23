@@ -203,6 +203,9 @@ nav ul li a#cabecalho {
 .btn_download {
 	margin-top: 20px;
 }
+.windows {
+	font-size: .6em;
+}
 /*BOTÕES INÍCIO*/
 .btn_contato a{	
 	text-decoration: none;
@@ -283,6 +286,12 @@ nav ul li a#cabecalho {
 	font-size: 1em;
 	color: white;
 	text-align: center;
+}
+.titulo_manual {
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	margin-bottom: 3px;
 }
 @media only screen and (min-width: 400px) {
 .aviso_na_horizontal {
@@ -494,5 +503,77 @@ footer {
   display: block;
 }
 }
+/*contato início*/
+.contato_texto_1 {
+	color:white;
+	font-size: 1.5em; 
+	text-align: center;
+	margin-top: 50px;
+}
+.contato_texto_2 {
+	color:white;
+	font-size: 1.5em; 
+	text-align: center;
+	margin-top: 50px;
+}
+.qrcode_img {
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+.qrcode_img img {
+	border:solid white 7px ;
+	background-color: white;
+	padding-bottom: 5px;
+}
+.config_footer_1_contato {
+	margin-top: 80px;
+}
+.creditos a{
+	font-size: .8em;
+	color:white;
+	float: right;
+	margin-right: 20%;
+	padding-bottom: 40px;
+	text-decoration: none;
+}
+@media(max-width: 480px){
+.grid-p-6_1{
+	margin-top: 100px;
+}
+}
+@media(max-width: 480px){
+.grid-p-6_2{
+	margin-bottom: 20px;
+}
+}
+@media(max-width: 480px){
+.grid-p-6_3{
+	font-size: 1.1em;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+}
+@media(max-width: 700px){
+.tira_frase {
+     display: none;
+}
+}
+.btn_home a{
+	color: blue;
+	font-size: 1.2em;
+	margin-left: 8px;
+	text-decoration: none;
+	background-color: white;	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.btn_home {
+	margin-top: 12px;
+}
+/*contato fim*/
 
 
