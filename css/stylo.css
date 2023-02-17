@@ -217,11 +217,10 @@ nav ul li a#cabecalho {
 }
 .btn_padrao a{	
 	text-decoration: none;
-	font-size: 1.5em;	
+	font-size: 2em;	
 	color: blue;
 	background-color: white;
-	padding-right: 12px;
-	padding-left: 12px;
+
 }
 .ajuste1 {
 	margin-bottom: 13px;
@@ -466,9 +465,11 @@ footer {
 }
 @media(min-width: 230px){
 .btn_padrao {	
-	width: 80%;
+	width: 50%;
 	height: 100%;
-	margin-bottom: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-bottom: 6px;
 	text-decoration: none;
 	font-size: .6em;	
 	color: blue;
@@ -477,7 +478,7 @@ footer {
 }
 @media(min-width: 680px){
 .btn_padrao {	
-	width: 35%;
+	width: 30%;
 	font-size: .5em
 }
 }
