@@ -202,6 +202,7 @@ nav ul li a#cabecalho {
 }
 .btn_download {
 	margin-top: 20px;
+	margin-bottom: 15px;
 }
 .windows {
 	font-size: .6em;
@@ -478,7 +479,7 @@ footer {
 }
 @media(min-width: 680px){
 .btn_padrao {	
-	width: 30%;
+	width: 50%;
 	font-size: .5em
 }
 }
